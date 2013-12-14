@@ -21,6 +21,7 @@
 		762F5630185D0B3300BEAD6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762F5612185D0B3200BEAD6F /* UIKit.framework */; };
 		762F5638185D0B3300BEAD6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 762F5636185D0B3300BEAD6F /* InfoPlist.strings */; };
 		762F563A185D0B3300BEAD6F /* flatbuttonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 762F5639185D0B3300BEAD6F /* flatbuttonTests.m */; };
+		762F5645185D176700BEAD6F /* FlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 762F5643185D176700BEAD6F /* FlatButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		762F5635185D0B3300BEAD6F /* flatbuttonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "flatbuttonTests-Info.plist"; sourceTree = "<group>"; };
 		762F5637185D0B3300BEAD6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		762F5639185D0B3300BEAD6F /* flatbuttonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flatbuttonTests.m; sourceTree = "<group>"; };
+		762F5643185D176700BEAD6F /* FlatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatButton.m; sourceTree = "<group>"; };
+		762F5644185D176700BEAD6F /* FlatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatButton.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				762F5620185D0B3200BEAD6F /* Main.storyboard */,
 				762F5623185D0B3200BEAD6F /* ViewController.h */,
 				762F5624185D0B3200BEAD6F /* ViewController.m */,
+				762F5643185D176700BEAD6F /* FlatButton.m */,
+				762F5644185D176700BEAD6F /* FlatButton.h */,
 				762F5626185D0B3200BEAD6F /* Images.xcassets */,
 				762F5615185D0B3200BEAD6F /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			files = (
 				762F5625185D0B3200BEAD6F /* ViewController.m in Sources */,
 				762F561F185D0B3200BEAD6F /* AppDelegate.m in Sources */,
+				762F5645185D176700BEAD6F /* FlatButton.m in Sources */,
 				762F561B185D0B3200BEAD6F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
