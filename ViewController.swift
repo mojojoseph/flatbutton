@@ -31,9 +31,6 @@ class ViewController: UIViewController {
 
     flatButton.addTarget(self, action: "flatButtonPressed:", forControlEvents: UIControlEvents.TouchUpInside)
     
-    var button = UIButton()
-    button.setTitle("Hi", forState: UIControlState.Normal)
-    self.view.addSubview(button)
     self.view.addSubview(flatButton)
   
   }
