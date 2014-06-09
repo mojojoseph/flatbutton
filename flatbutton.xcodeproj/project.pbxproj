@@ -11,10 +11,6 @@
 		762F5611185D0B3200BEAD6F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762F5610185D0B3200BEAD6F /* CoreGraphics.framework */; };
 		762F5613185D0B3200BEAD6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762F5612185D0B3200BEAD6F /* UIKit.framework */; };
 		762F5619185D0B3200BEAD6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 762F5617185D0B3200BEAD6F /* InfoPlist.strings */; };
-		762F561B185D0B3200BEAD6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 762F561A185D0B3200BEAD6F /* main.m */; };
-		762F561F185D0B3200BEAD6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 762F561E185D0B3200BEAD6F /* AppDelegate.m */; };
-		762F5622185D0B3200BEAD6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 762F5620185D0B3200BEAD6F /* Main.storyboard */; };
-		762F5625185D0B3200BEAD6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 762F5624185D0B3200BEAD6F /* ViewController.m */; };
 		762F5627185D0B3200BEAD6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 762F5626185D0B3200BEAD6F /* Images.xcassets */; };
 		762F562E185D0B3300BEAD6F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762F562D185D0B3300BEAD6F /* XCTest.framework */; };
 		762F562F185D0B3300BEAD6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762F560E185D0B3200BEAD6F /* Foundation.framework */; };
@@ -22,6 +18,9 @@
 		762F5638185D0B3300BEAD6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 762F5636185D0B3300BEAD6F /* InfoPlist.strings */; };
 		762F563A185D0B3300BEAD6F /* flatbuttonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 762F5639185D0B3300BEAD6F /* flatbuttonTests.m */; };
 		762F5645185D176700BEAD6F /* FlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 762F5643185D176700BEAD6F /* FlatButton.m */; };
+		765D79B419451DE9003C4894 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765D79B319451DE9003C4894 /* AppDelegate.swift */; };
+		765D79B619451E0F003C4894 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765D79B519451E0F003C4894 /* ViewController.swift */; };
+		76D066BA19452CA2005626A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 762F5620185D0B3200BEAD6F /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,13 +40,7 @@
 		762F5612185D0B3200BEAD6F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		762F5616185D0B3200BEAD6F /* flatbutton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "flatbutton-Info.plist"; sourceTree = "<group>"; };
 		762F5618185D0B3200BEAD6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		762F561A185D0B3200BEAD6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		762F561C185D0B3200BEAD6F /* flatbutton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "flatbutton-Prefix.pch"; sourceTree = "<group>"; };
-		762F561D185D0B3200BEAD6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		762F561E185D0B3200BEAD6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		762F5621185D0B3200BEAD6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		762F5623185D0B3200BEAD6F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		762F5624185D0B3200BEAD6F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		762F5626185D0B3200BEAD6F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		762F562C185D0B3300BEAD6F /* flatbuttonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flatbuttonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		762F562D185D0B3300BEAD6F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -56,6 +49,9 @@
 		762F5639185D0B3300BEAD6F /* flatbuttonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flatbuttonTests.m; sourceTree = "<group>"; };
 		762F5643185D176700BEAD6F /* FlatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatButton.m; sourceTree = "<group>"; };
 		762F5644185D176700BEAD6F /* FlatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatButton.h; sourceTree = "<group>"; };
+		765D79B219451DE7003C4894 /* flatbutton-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "flatbutton-Bridging-Header.h"; sourceTree = "<group>"; };
+		765D79B319451DE9003C4894 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		765D79B519451E0F003C4894 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,15 +111,14 @@
 		762F5614185D0B3200BEAD6F /* flatbutton */ = {
 			isa = PBXGroup;
 			children = (
-				762F561D185D0B3200BEAD6F /* AppDelegate.h */,
-				762F561E185D0B3200BEAD6F /* AppDelegate.m */,
+				765D79B319451DE9003C4894 /* AppDelegate.swift */,
+				765D79B519451E0F003C4894 /* ViewController.swift */,
 				762F5620185D0B3200BEAD6F /* Main.storyboard */,
-				762F5623185D0B3200BEAD6F /* ViewController.h */,
-				762F5624185D0B3200BEAD6F /* ViewController.m */,
 				762F5643185D176700BEAD6F /* FlatButton.m */,
 				762F5644185D176700BEAD6F /* FlatButton.h */,
 				762F5626185D0B3200BEAD6F /* Images.xcassets */,
 				762F5615185D0B3200BEAD6F /* Supporting Files */,
+				765D79B219451DE7003C4894 /* flatbutton-Bridging-Header.h */,
 			);
 			path = flatbutton;
 			sourceTree = "<group>";
@@ -133,8 +128,6 @@
 			children = (
 				762F5616185D0B3200BEAD6F /* flatbutton-Info.plist */,
 				762F5617185D0B3200BEAD6F /* InfoPlist.strings */,
-				762F561A185D0B3200BEAD6F /* main.m */,
-				762F561C185D0B3200BEAD6F /* flatbutton-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -233,9 +226,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76D066BA19452CA2005626A2 /* Main.storyboard in Resources */,
 				762F5627185D0B3200BEAD6F /* Images.xcassets in Resources */,
 				762F5619185D0B3200BEAD6F /* InfoPlist.strings in Resources */,
-				762F5622185D0B3200BEAD6F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,10 +247,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				762F5625185D0B3200BEAD6F /* ViewController.m in Sources */,
-				762F561F185D0B3200BEAD6F /* AppDelegate.m in Sources */,
+				765D79B419451DE9003C4894 /* AppDelegate.swift in Sources */,
+				765D79B619451E0F003C4894 /* ViewController.swift in Sources */,
 				762F5645185D176700BEAD6F /* FlatButton.m in Sources */,
-				762F561B185D0B3200BEAD6F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,10 +376,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "flatbutton/flatbutton-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "flatbutton/flatbutton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "flatbutton/flatbutton-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -397,10 +394,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "flatbutton/flatbutton-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "flatbutton/flatbutton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "flatbutton/flatbutton-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -466,6 +467,7 @@
 				762F563F185D0B3300BEAD6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		762F5640185D0B3300BEAD6F /* Build configuration list for PBXNativeTarget "flatbuttonTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +476,7 @@
 				762F5642185D0B3300BEAD6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
